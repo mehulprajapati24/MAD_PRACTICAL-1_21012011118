@@ -8,14 +8,33 @@ fun main()
     var s2: String? = readLine()
     var no2: Double = s2?.toDoubleOrNull() ?: 0.0
 
-    arithmetic_operations(no1,no2)
+    println("Addition of $no1 & $no2 is ${add(no1,no2)}")
+    sub(no1,no2)
+    mul(no1,no2)
+    div(no1,no2)
+    mod(no1,no2)
 }
 
-fun arithmetic_operations(n1:Double,n2:Double)
+fun add(n1:Double,n2:Double):Double
 {
-    println("Addition of $n1 & $n2 is ${n1+n2}")
+    return n1+n2
+}
+fun sub(n1:Double,n2:Double)
+{
     println("Subtraction of $n1 & $n2 is ${n1-n2}")
-    println("Division of $n1 & $n2 is ${n1/n2}")
+}
+
+fun mul(n1:Double,n2:Double)
+{
     println("Multiplication of $n1 & $n2 is ${n1*n2}")
+}
+
+fun div(n1:Double,n2:Double)
+{
+    println("Division of $n1 & $n2 is ${n1/n2}")
+}
+
+fun mod(n1:Double,n2:Double)
+{
     println("Modulo of $n1 & $n2 is ${n1%n2}")
 }
