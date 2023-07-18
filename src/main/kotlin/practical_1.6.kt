@@ -13,9 +13,9 @@ fun main()
 
 fun arithmetic_operations(n1:Double,n2:Double)
 {
-    println("$n1 + $n2 = ${n1+n2}")
-    println("$n1 - $n2 = ${n1-n2}")
-    println("$n1 / $n2 = ${n1/n2}")
-    println("$n1 * $n2 = ${n1*n2}")
-    println("$n1 % $n2 = ${n1%n2}")
+    println("Addition of $n1 & $n2 is ${n1+n2}")
+    println("Subtraction of $n1 & $n2 is ${n1-n2}")
+    println("Division of $n1 & $n2 is ${n1/n2}")
+    println("Multiplication of $n1 & $n2 is ${n1*n2}")
+    println("Modulo of $n1 & $n2 is ${n1%n2}")
 }
