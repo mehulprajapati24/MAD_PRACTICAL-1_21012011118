@@ -1,9 +1,10 @@
 fun main()
 {
     print("Enter number of month which : ")
-    var s: String? = readLine()
-    var no: Int = s?.toIntOrNull() ?: 0
+//    var s: String? = readLine()
+//    var no: Int = s?.toIntOrNull() ?: 0
 
+    var no:Int = readLine()!!.toInt()
     val month = when(no)
     {
         1 -> "January"
