@@ -1,6 +1,6 @@
 fun main()
 {
-    print("Enter number of month which : ")
+    print("Enter number of month which you want to display: ")
 //    var s: String? = readLine()
 //    var no: Int = s?.toIntOrNull() ?: 0
 
