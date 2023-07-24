@@ -16,7 +16,7 @@ fun main()
     }
 }
 
-fun factorial(num:Int):Int {
+tailrec fun factorial(num:Int):Int {
 
     if(num==0 || num==1)
     {
