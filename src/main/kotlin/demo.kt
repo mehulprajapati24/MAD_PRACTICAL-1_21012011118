@@ -1,4 +1,3 @@
-//
 class student(var enroll_no: Long, var name:String="MEHUL")
 {
     constructor():this(21012011118)
