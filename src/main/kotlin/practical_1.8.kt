@@ -98,6 +98,7 @@ fun main()
     println("Elements of Array:")
     var arr8:Array<Int> = arrayOf(56,23,49,12,2)
     println(java.util.Arrays.deepToString(arr8))
+    //we can use println(Arrays.deepToString(arr8)) directly by import java.util.*
     //for (i in 0..arr8.size-1)
     for (i in 0..arr8.size-2)
     {
