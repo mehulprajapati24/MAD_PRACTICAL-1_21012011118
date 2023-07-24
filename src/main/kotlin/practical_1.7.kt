@@ -1,3 +1,4 @@
+//tailrec fun main()
 fun main()
 {
     print("Enter number to find factorial : ")
