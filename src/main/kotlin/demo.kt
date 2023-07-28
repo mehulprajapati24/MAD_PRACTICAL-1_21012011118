@@ -1,10 +1,12 @@
 class student(var enroll_no: Long, var name:String="MEHUL")
 {
+    //secondary constructor
     constructor():this(21012011118)
     {
         println("Your enrollment no is $enroll_no and name is $name")
     }
 
+    //primary constructor
     init
     {
         println("Enrollment no is $enroll_no and Name is $name")
