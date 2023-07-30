@@ -1,4 +1,3 @@
-//tailrec fun main()
 fun main()
 {
     print("Enter number to find factorial : ")
@@ -15,7 +14,7 @@ fun main()
         println("Factorial of $num = $result")
     }
 }
-
+//fun factorial(num:Int):Int
 tailrec fun factorial(num:Int):Int {
 
     if(num==0 || num==1)
